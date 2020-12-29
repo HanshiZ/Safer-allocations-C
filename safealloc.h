@@ -17,10 +17,6 @@
 
 #define n0llptr 0
 
-static int allocs = 0;
-
-static int frees = 0;
-
 #ifndef CLEANUP
 #define CLEANUP 0
 #endif

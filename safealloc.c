@@ -156,7 +156,7 @@ int leakcheck(void)
     else
     {
          printf("\n!!!%d total free%s and %d total allocation%s!!!\n",frees, frees == 1 ? "" : "s", allocs, allocs == 1 ? "" : "s");
-         #ifdef CLEANUP
+         #if CLEANUP
              cleanup(0);
          #endif
          return 1;
